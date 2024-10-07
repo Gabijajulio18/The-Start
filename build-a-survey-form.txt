@@ -1,0 +1,164 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTH-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 id="title">Swimming Bootcamp</h1>
+      <h2 id="subtitle">for Coaches</h2>
+      <p class="description" id="description">Please fill this form with the required information!</p>
+    </header>
+  <form id="survey-form">
+   
+    <div class="form-group">
+      <label id="name-label" for="name">Name
+      </label>
+      <input id="name" type="text" name="name" placeholder="Enter your name" class="form-control" required/>
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email
+      </label>
+      <input id="email" type="email" name="name" class="form-control" placeholder="Enter your email" required/>
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number">Age
+      </label>
+      <input id="number" name="age" type="number" min="18" max="120" placeholder="18" class="form-control" required/>
+    </div>
+    <div class="form-group">
+      <p class="question">What level of swimming coach certification do you have?</p>
+      <select id="dropdown" name="level" class="form-control" required>
+        <option value="" disable="" selected="">Select your coach level</option>
+        <option value="none">None</option>
+        <option value="one">1</option>
+        <option value="two">2</option>
+        <option value="three">3</option>
+        <option value="four">4</option>
+      </select>
+    </div>
+      <div class="form-group">
+        <p class="question">Why do you want to attend this Bootcamp?</p>
+        <label><input class="input-radio" type="radio" value="I participated in the last edition and loved it" name="user-attendence" checked="">I participated in the last edition and loved it</label>
+        <label><input class="input-radio" type="radio" value="Meet other coaches and share ideas" name="user-attendence"/>Meet other coaches and share ideas</label>
+        <label><input class="input-radio" type="radio" value="Expand my knowledge as a coach" name="user-attendence"/>Expand my knowledge as a coach</label>
+        <label><input class="input-radio" type="radio" value="Out of curiosity" name="user-attendence"/>Out of curiosity</label>
+        <label><input class="input-radio" type="radio" value="Other" name="user-attendence"/>Other</label>
+      </div>
+      <div class="form-group">
+        <p class="question">What are you most excited to see?<span class="clue"> (Check all that aplly)</span></p>
+        <label><input class="input-checkbox" type="checkbox" name="prefer" value="Lectures" />Lectures</label>
+        <label><input class="input-checkbox" type="checkbox" name="prefer" value="Practical sessions" />Practical sessions</label>
+        <label><input class="input-checkbox" type="checkbox" name="prefer" value="Q&A sessions" />Q&A sessions</label>
+        <label><input class="input-checkbox" type="checkbox" name="prefer" value="Surprise guest (Olympic athlete)" />Surprise guest (Olympic athlete)</label>
+      </div>
+      <div class="form-group">
+        <p class="question">Any comments or suggestions?</p>
+        <textarea id="comments"class="input-textarea" name="comment" placeholder="Enter your comment here..." ></textarea>
+      </div>
+    
+    <div class="form-group">
+      <button id="submit" type="submit" class="submit-button">Submit</button>  
+    </div>
+  </form>
+  </div>
+</body>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  color: white;
+  width: 100%;
+  margin: 0;
+  background-image: linear-gradient(115deg, rgba(58,58,158,0.8), rgba(136, 136, 206, 0.7)), url(https://nypost.com/wp-content/uploads/sites/2/2024/08/august-02-editors-note-image-86799615.jpg?resize=1024,1536&quality=75&strip=all);
+  background-size: cover;
+ background-repeat: no-repeat; 
+  background-position: center; 
+}
+.header {
+  color: white;
+  text-align: center
+}
+h1 {
+  margin-bottom: -20;
+  font-size:3rem
+}
+h2 {
+  font-size: 2rem;
+
+}
+.description {
+  margin-top: 25;
+  margin-bottom: 10;
+  font-style: italic;
+}
+.container {
+  margin: 2rem; 
+}
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: auto
+}
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom:0.5rem;
+  font-size: 
+}
+form {
+  font-size: 1.2rem;
+  background: rgba(28, 28, 51, 0.4);
+  padding: 0.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+input, button, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #389965;
+  color: inherit;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.clue {
+  margin-left: 0.25rem;
+  font-size: 0.9rem;
+}
+.question{
+  margin-top: 3rem;
+  font-size: 1.25rem;
+}
+
+** end of undefined **
+
