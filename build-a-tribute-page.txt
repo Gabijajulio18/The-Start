@@ -1,0 +1,88 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html land="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tribute Page for Caeleb Dressel</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Caeleb Dressel</h1>
+      <p>The fastest man alive</p>
+      <figure id="img-div">
+        <img id="image" src="https://i.abcnewsfe.com/a/6db4a39c-2bdf-4c04-be79-984d8b27a18b/Caeleb-Dressel-2-gty-bb-240701_1719837160230_hpEmbed_3x2.jpg?w=1500" alt="Caeleb Dressel with the gold medal at the Tokyo 2020 Olympic Games"/>
+        <figcaption id="img-caption" >Caeleb Dressel with the gold medal at the Tokyo 2020 Olympic Games.</figcaption>
+      </figure>
+      <section id="tribute-info">
+        <h3 id="headline">Time line of Caeleb Dressel's Career:</h3>
+        <ul>
+          <li>
+            <strong>2012</strong> - He led off a 50-yard free relay with a time of 19.82, becoming the first swimmer under 16 years old to break 20 seconds.
+          </li>
+          <li>
+            <strong>2013</strong> - When Dressel was 17 years old, he won six medals, including a gold medal in the 100 meter freestyle in which he broke the Championships record with his time of 48.97 seconds, at the 2013 FINA World Junior Swimming Championships in Dubai, United Arab Emirates in August 2013
+          </li>
+          <li>
+            <strong>2015</strong> - During his freshman year at the University of Florida, Dressel won the 2015 NCAA title in the 50 yard freestyle when he was 18 years old with a time of 18.67 seconds, which was his first NCAA title, the first NCAA title for the Florida Gators in the men's 50 yard freestyle, and set a new 17—18 national age group record in the event.
+          </li>
+          <li>
+            <strong>2016</strong> - At the 2016 US Olympic Trials, Dressel made the 2016 US Olympic Team in the 100 meter freestyle by finishing second with a time of 48.23 seconds, he also placed 4th in the 50 meter freestyle, 7th in the 100 meter butterfly, 32nd in the 200 meter freestyle, and was disqualified in the 200 meter individual medley for a false start.[35] In addition to the five events he raced, Dressel had entered to compete in the 100 meter breaststroke with his best time of 1:02.26 and the 100 meter backstroke, and decided not to race the events.Dressel's performances leading up to and at the 2016 US Olympic Trials earned him recognition as America's best young sprinter by Sports Illustrated and CBS News.At the 2016 Summer Olympics in Rio de Janeiro, Brazil, Dressel won his first Olympic medal, a gold medal, in the 4×100 meter freestyle relay.
+          </li>
+          <li>
+            <strong>2017</strong> - t the 2017 World Aquatics Championships in Budapest, Hungary, Dressel won seven gold medals and set numerous American records. Dressel was named the male swimmer of the meet. He also became the second swimmer to win seven gold medals at a single World Championships, after Michael Phelps in 2007.
+          </li>
+          <li>
+            <strong>2018</strong> - At the 2018 NCAA Division I Men's Swimming and Diving Championships in March, Dressel won all three of his individual races, and won his first relay national title. At the 2018 World Short Course Championships in Hangzhou, China in December 2018, Dressel tied Kelsi Dahlia for the most number of medals won at the World Championships meet with nine medals, he won six gold medals to Dahlia's seven.
+          </li>
+          <li>
+            <strong>2019</strong> - At the 2019 World Aquatics Championships held in Gwangju, South Korea, he first won a gold as part of the team in men's 4×100 meter freestyle relay. He then won gold in the 50 meter butterfly, an event he failed to win in 2017. He is the first American man to win that event, and he set a new national and championship record time of 22.35 seconds for the event.This is followed by a national record and the third fastest time in history (46.96) in the 100 meter freestyle.
+
+In the 100 meter butterfly event, Dressel broke Michael Phelps' ten-year-old record by 0.32 second in the semi-final, setting a new world-record time of 49.50 seconds. He won gold in the final the following day. That same day within two hours, Dressel won two more gold medals – in the 50 meter freestyle in a Championships record time, and as part of the team in the mixed 4×100 meter freestyle relay, which was won in a world-record time of 3 minutes, 19.40 seconds. This was a repeat of his achievement in Hungary in 2017, and it was also the first time anyone won three gold medals in one day at the Championships two times
+          </li>
+          <li>
+            <strong>2020</strong> - Dressel was selected as one of two male USA swimming captains for the 2020 Summer Olympics in Tokyo, Japan, held in August 2021, along with Ryan Murphy. Dressel won his first individual Olympic gold medal in the final of the 100 meter freestyle with a time of 47.02, a new Olympic record. Dressel won the final of the 100 meter butterfly in a world record time of 49.45. Dressel won the gold medal in 50 meter freestyle with an Olympic record time of 21.07. Later in the same session, Dressel won the gold medal in the 4x100 meter medley relay and set a new world record for the event of 3:26.78 in the final with his relay teammates Ryan Murphy, Michael Andrew, and Zach Apple.
+          </li>
+          <li>
+            <strong>2022</strong> - On the first day of the 2022 World Championships, Dressel led-off the 4×100 meter freestyle relay in a time of 47.67 seconds, helping achieve the first relay gold medal of the Championships for the United States. The next day, he backed up the gold medal in the relay with a gold medal in the 50 meter butterfly, finishing first with a time of 22.57 seconds, which was over two-tenths of a second faster than silver medalist Nicholas Santos of Brazil.
+          </li>
+        </ul>
+        <h3>If you want to learn more about this great swimmer <a id="tribute-link" href="https://en.wikipedia.org/wiki/Caeleb_Dressel" target="_blank"> Click Here</a></h3>
+      </section>
+    </main>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+body {
+  font-family: 'Georgia', serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+}
+li {
+  margin: 16px 0;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+** end of undefined **
+
